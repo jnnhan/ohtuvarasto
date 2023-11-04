@@ -80,5 +80,6 @@ class TestVarasto(unittest.TestCase):
 
     def test_paljonko_mahtuu(self):
         self.varasto.lisaa_varastoon(5)
+        
 
         self.assertEqual(str(self.varasto), "saldo = 5, vielä tilaa 5")
